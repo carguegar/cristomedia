@@ -1,0 +1,59 @@
+# -------------------------
+# Java / Gradle
+# -------------------------
+**/build/
+**/.gradle/
+**/out/
+*.class
+*.jar
+!**/gradle/wrapper/gradle-wrapper.jar
+*.log
+
+# -------------------------
+# IDE
+# -------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# -------------------------
+# Flutter / Dart
+# -------------------------
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/macos/Flutter/ephemeral/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+app.*.symbols
+app.*.map.json
+
+# -------------------------
+# Sistema operativo
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Secretos y configuración local
+# -------------------------
+# No subas contraseñas reales. persistence.xml se incluye con un placeholder.
+**/persistence-local.xml
+**/*.env
+!**/*.env.example
